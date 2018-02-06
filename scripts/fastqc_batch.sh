@@ -10,7 +10,7 @@ module load fastqc
 
 fileDir=/N/dc2/scratch/rtraborn/T502_fastqs/Genotyping_Ecoli
 ####### Before running the script, please enter path to desired output directory, below ####
-fqDir=<provide path to desired output directory>
+fqDir=/N/u/campalex/Carbonate/T502_genotyping/
 #fqDir=/N/dc2/scratch/rtraborn/T502_genotyping/fastqs>
 
 if [ ! -d "$fqDir" ] ; then
